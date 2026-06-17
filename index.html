@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple GitHub hosted site with interactive elements">
+    <meta property="og:title" content="My GitHub Hosted Site">
+    <meta property="og:description" content="A simple GitHub hosted site with interactive elements">
+    
     <title>My GitHub Hosted Site</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="card">
-        <h1>Hello World!</h1>
-       
-        <button id="alertBtn">Click Me</button>
-    </div>
-    <script src="script.js"></script>
+    <main>
+        <section class="card">
+            <h1>Hello World!</h1>
+            <button id="alertBtn" aria-label="Show welcome message">Click Me</button>
+        </section>
+    </main>
+    
+    <script src="script.js" defer></script>
 </body>
 </html>
